@@ -1,0 +1,12 @@
+git clone https://github.com/PanMadzior/epg1_git
+cd epg1_git
+git branch hw-s17246
+git checkout rebase-me
+git rebase hw-s17246
+git checkout hw-s17246
+git merge rebase-me
+git merge origin/merge-me
+<rozwiązanie konfliku>
+git add README.md
+git commit
+
